@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3a5e19e6c3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img class ="logo" src ="img/logo-grab-png (1).png" >
+            <div class="nav">
+                <div class="dropdown">
+                    <button class="dropbtn" style="color: black;">Trở thành Đối tác của Grab
+                        <i class="fa fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" style="color: black;">Đăng ký làm đối tác Grab</a>
+                        <a href="#" style="color: black;">Đăng ký điểm chấp nhận thanh toán</a>
+                        <a href="#" style="color: black;">Đăng ký hợp tác với GrabRewards</a>
+                    </div>
+                </div>
+                <a href="#" style="color: black;">Trung tâm Hỗ trợ</a>
+                <div class="dropdown">
+                    <button class="dropbtn" style="color: black;"> <i class="fa fa-globe"></i>Tiếng Việt
+                        <i class="fa fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" style="color: black;">English</a>
+                    </div>
+                </div>
+                <a class="nav-link" href="#" style="color: black;"><i class="fa fa-sign-in" title="Đăng nhập"></i>Đăng nhập</a>
+                <input type="text" id="search" placeholder="Tìm kiếm..." aria-hidden="true">
+            </div>
+            <div class="menu"><a href="#" id="menu-btn" onclick="dropdownMenu()"><i class="fas fa-bars"></i></a></div>
+        </div>
+    </header>
+<div class="container">
+<img src="img/GrabFood.jpg" style="width: 100%">
+<div class="top-left"><h1>Nhiều bữa ăn ngon.
+                        <br> 
+                        Quán thêm đông khách.</h1>
+                      <p>Mang món ngon của bạn đến gần hơn với tất cả mọi người.</p>
+</div>
+</div>
+<main>
+<div class="banner">
+    <div class="banner_content">
+      <div class="container-right">
+        <div class="form">
+          <h2 class="id">Trở thành Nhà hàng đối tác cùng GrabFood</h2>
+          <p>"Điền vào thông tin theo mẫu sau. Lưu ý, GrabFood sẽ thu phí hoa hồng trên doanh thu bán ra của Nhà hàng. "
+          </p>
+          <p><i>(*) Vui lòng nhập địa chỉ email chính xác.</i></p>
+          <div class="form_content">
+            <form action="#">
+            <select class="select_form">
+              <option value = "selected">Thành phố</option>
+              <option value = "hanoi">Hà Nội</option>
+              <option value = "tphcm">Thành phố Hồ Chí Minh</option>
+            </select>
+            <input type="word" name="HoVaten" placeholder="Người đại diện" class="write_content">
+            <input type="word" name="Phone" placeholder="Tên Nhà hàng/Quán ăn" class="write_content">
+            <select class="select_form">
+              <option value = "selected">Loại hình kinh doanh</option>
+              <option value = "car"></option>
+              <option value = "bike">Grab Bike</option>
+            </select>
+            <select class="select_form">
+              <option value = "selected">Nguồn giới thiệu</option>
+              <option value = "tv">TV</option>
+              <option value = "news">Báo chí / Quảng cáo</option>
+              <option value = "internet">Mạng xã hội</option>
+              <option value = "Friend">Bạn bè và người thân</option>
+              <option value = "Graber">Tài xế grab</option>
+            </select>
+            <input type="number" name="code" placeholder="Code giới thiệu" class="write_content">
+            <input type="submit" value="Submit" class="submit">
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer-distributed footer">
+    <div class="footer-trai">
+        <a href="#"><img src="img/logo-grab-png (1).png"></a>
+        <ul>
+            <div class="menu-bar2">
+                <li><a href="#">Trở Thành Đối Tác Grab</a></li>
+                <li><a href="#">Trung Tâm Hỗ Trợ</a></li>
+                <li><a href="#">Tin Tức</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="footer-giua">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p>Công Ty TNHH Grab - 268 Tô Hiến Thành<br> P.15, Q.10, TP Hồ Chí Minh.</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>09999999999</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="">mailnayfake@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-phai">
+        <p class="footer-company">
+            <span>Về Grab</span>
+            Dịch vụ trung gian thanh toán do Công ty Cổ phần Công nghệ và Dịch Vụ Moca cung cấp. Mã số doanh nghiệp: 0106254974
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+        </div>
+    </div>
+</footer>
+<footer class="cp">
+&COPY Copyright by Grab Viet Nam 2020
+</footer>
+<script src="./run.js"></script>
+</body>
+</html>
