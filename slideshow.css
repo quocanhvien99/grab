@@ -1,9 +1,13 @@
 .slideshow-container {
     width: 650px;
     height: 650px;
+    
 }
 .mySlides {
     display: none;    
+}
+#firstSlide {
+    display: block;
 }
 .fade {
     -webkit-animation-name: fade;
